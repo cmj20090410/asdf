@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>분실물 등록</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>✏️ 분실물 등록</h1>
+    <form id="itemForm">
+        <input type="text" id="itemName" placeholder="물건 이름" required><br>
+        <input type="text" id="location" placeholder="분실 장소" required><br>
+        <input type="date" id="lostDate" required><br>
+        <input type="text" id="reporter" placeholder="신고자"><br>
+        <input type="file" id="photo" accept="image/*" required><br><br>
+        <button type="submit">등록하기</button>
+    </form>
+
+    <a href="index.html">⬅ 목록으로 돌아가기</a>
+
+    <script src="script.js"></script>
+</body>
+</html>
